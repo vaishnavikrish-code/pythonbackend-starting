@@ -100,3 +100,39 @@ for i in range(1, 4):
     if found:
         break
 print()
+
+#complex conditions
+score = 85
+if score >= 90:
+    grade = "A"
+elif score >= 80:
+    grade = "B"
+elif score >= 70:
+    grade = "C"
+elif score >= 60:
+    grade = "D"
+else:
+    grade = "F"
+print(f"  Score: {score} → Grade: {grade}\n")
+
+#license
+#and 
+
+age = 20
+has_license = True
+if age >= 18 and has_license:
+    print("  You are eligible to drive.\n")
+
+#or
+weekend = True
+holiday = False
+if weekend or holiday:
+    print("  You can relax today!\n")
+
+#NOT 
+is_raining = False
+if not is_raining:
+    print("   Go outside\n")
+
+
+
